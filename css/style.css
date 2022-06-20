@@ -42,13 +42,13 @@ p {
   width: 300px;
   text-transform: capitalize;
 }
-span {
+/* span {
   color: #ffffff;
   font-family: "Roboto";
   text-transform: capitalize;
   font-size: 15px;
   transition: all 1s linear;
-}
+} */
 /* Spans */
 .wave-me-span {
   color: #ffffff;
@@ -60,6 +60,13 @@ span {
   font-family: "Lato-Bold";
   font-size: 20px;
   text-transform: uppercase;
+}
+.read-more{
+  color: #ffffff;
+  font-family: "Roboto";
+  text-transform: capitalize;
+  font-size: 15px;
+  transition: all 1s linear;
 }
 /* Header */
 .header {
@@ -148,7 +155,7 @@ span {
 .button-2:hover {
   background-color: #ffffff;
 }
-.button-2:hover span {
+.button-2:hover .read-more {
   color: black;
 }
 .box:nth-child(1) {
